@@ -1,0 +1,8 @@
+site 'http://community.opscode.com/api/v1'
+
+## FIX for https://github.com/applicationsonline/librarian/issues/159
+cookbook 'windows', :git => 'https://github.com/SimpleFinance/chef-windows.git'
+##
+
+cookbook 'rbenv'
+cookbook 'nginx'
